@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h1>Sketch de atardecer
+    </h1>
+    <h4>Sonidos...</h4>
+    <audio src="take my hand.mp3" controls preload="auto"></audio>
+    <h4>Imagenes...</h4>
+
+    <iframe width="290" height="163" src="https://www.youtube-nocookie.com/embed/bX3tVK5FmHM"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+      control></iframe>
+    <h4>Palabras..</h4>
+    <p>
+      Caminos grises, empedradas, asfalto.
+    </p>
+    <h4>Trazos...</h4>
+    <img src=" sketch.jpg" alt="centered image" height="418" width="290" />
+  </div>
+  <p>Algunos verdes marcan el camino.</p>
+</body>
+
+</html>
