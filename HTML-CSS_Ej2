@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="frmInscripcion" action="recieveform.html" method="post"
+    style="border: 1px #000 solid; margin: 30px; padding: 10px;">
+    <h3>Formulario Inscripción</h3>
+    <fieldset>
+      <legend>Datos personales</legend>
+      <div>
+        Nombre <input name="txtNombre" type="text" placeholder="Introduzca su nombre" pattern="[A-Za-z0-9]+" required>
+        <p></p>
+        Apellido <input name="txtApellido" type="text" placeholder="Introduzca su apellido" pattern="[A-Za-z0-9]+"
+          required>
+        <p></p>
+        E-mail <input name="txtEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required type="text"
+          type="email" placeholder="Introduzca su email">
+
+        <p></p>
+        Teléfono <input name="txtTelefono" type="tel" placeholder="Introduzca su número"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <small>Formato: 342-535-3454</small>
+        <p></p>
+        Dirección <input name="txtDireccion" type="text" placeholder="Introduzca su dirección" pattern="[A-Za-z0-9]+"
+          required>
+      </div>
+      <p></p>
+      <div>
+        <input type="submit" value="Enviar formulario">
+      </div>
+    </fieldset>
+  </form>
+
+  <table border="1px">
+    <tr>
+      <th>Instrumento</th>
+      <th>Tipo</th>
+      <th colspan="2">Material y tesitura</th>
+    </tr>
+    <tr>
+      <th>Guitarra</th>
+      <th>Armónico</th>
+      <th>Madera</th>
+      <th>Do3-Do5</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Piano</th>
+      <th>Armónico</th>
+      <th>Madera</th>
+      <th>La2-La7</th>
+    </tr>
+    <tr>
+      <th>Armónico</th>
+      <th>Plástico</th>
+      <th>Fa4-Mi6</th>
+    </tr>
+  </table>
+</body>
+
+</html>
