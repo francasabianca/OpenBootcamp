@@ -1,0 +1,22 @@
+* {
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  color: white;
+  background-color: black;
+}
+
+.miparrafo {
+  color: lightgray;
+  background-color: darkgray;
+}
+
+div p {
+  color: darkgrey;
+  background-color: lightgray;
+}
+
+div .miparrafo {
+  color: black;
+  background-color: white;
+}
